@@ -1,0 +1,15 @@
+extension:
+  name: irt_ext
+  description: 2PL Item Response Theory (MML/EM) — item discrimination, difficulty, person ability (EAP)
+  version: 0.1.0
+  language: Rust
+  build: cargo
+  license: MIT
+  excluded_platforms: "wasm_mvp;wasm_eh;wasm_threads;linux_amd64_musl;windows_amd64_rtools;windows_amd64_mingw"
+  requires_toolchains: "rust"
+  maintainers:
+    - alitrack
+
+repo:
+  github: alitrack/duckdb_irt
+  ref: refs/tags/v0.1.0
